@@ -67,6 +67,18 @@ section > p{
     
     box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.384);
 }
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer > a{
+    color: white;
+    text-decoration: none;
+}
+footer > a:hover{
+    text-decoration: underline;
+}
 @media (max-width: 768px) {
     section > p{
         font-size: x-large;
